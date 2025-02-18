@@ -1,3 +1,21 @@
-p {
-    color: blue;
+* {
+
+}
+
+#p1 {
+    color: green;
+}
+
+.p2 {
+    color: red;
+}
+div p {
+    color: greenyellow;
+}
+.teste { 
+    color: blueviolet;
+}
+a:hover {
+    color: aqua;
+    background-color: blueviolet;
 }
