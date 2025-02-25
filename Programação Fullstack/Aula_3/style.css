@@ -1,0 +1,11 @@
+.solid {border: 2px solid red;}
+.dashed{border: 2px dashed blue;}
+.dotted{border: 2px dotted blueviolet;}
+.radius_10{border-radius: 10px;}
+.margin {margin-top: 50px;}
+.shadow {box-shadow: 5px 5px gray;}
+.padding {padding: 10px;}
+.width_200 {width: 500px;}
+.height_25 {height: 25px;}
+.display_inline{display: inline}
+.display_block{display: block}
