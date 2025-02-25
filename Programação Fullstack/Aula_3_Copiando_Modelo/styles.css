@@ -1,0 +1,56 @@
+.b1 {
+    border: 3px solid #030279;
+    text-align: center;
+    color: green;
+    font-size: 50px;
+    background-color: #fee4c3;
+    padding: 30px;
+    text-align: center;
+}
+.b2 {
+    font-family: 'sans-serif';
+    text-align: center;
+    display: inline;
+}
+.p1 {
+    font-size: 20px;
+    display: inline;
+    margin-right: 30px;
+    color: #631523;
+}
+.b3 {
+    background-color: #87cefa;
+    padding: 15px;
+    text-align: center;
+}
+.background {
+    background-color: #d3d3d3;
+}
+.textcenter {
+    margin: 10px; color: #4e2873; font-size: 20px;
+}
+.books {
+    margin-left: 385px;
+    position: relative;
+    margin-bottom: 50px;
+}
+.livros {
+    margin-right: 100px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.video {
+    text-align: center;
+}
+.modal {
+    margin: 100px;
+    display: inline;
+}
+table, th, tr {
+    border: 1px dotted red;
+}
+.tabela {
+    margin: auto;
+}
