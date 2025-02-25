@@ -3,7 +3,7 @@
     text-align: center;
     color: green;
     font-size: 50px;
-    background-color: #fee4c3;
+    background-color: #fff5e7;
     padding: 30px;
     text-align: center;
 }
@@ -11,6 +11,12 @@
     font-family: 'sans-serif';
     text-align: center;
     display: inline;
+    margin: auto;
+    width: 100%;
+}
+.imagem {
+    margin: 0 auto;
+    width: 100px;
 }
 .p1 {
     font-size: 20px;
@@ -48,9 +54,32 @@ h1 {
     margin: 100px;
     display: inline;
 }
-table, th, tr {
-    border: 1px dotted red;
+th, tr {
+    border: 3px solid red;
+}
+table {
+    border: 3px dotted red;
+}
+th {
+    color: red;
+    padding: 10px;
+}
+td {
+    border: 1px solid red;
+    padding: 10px;
 }
 .tabela {
-    margin: auto;
+    margin: 0 auto;
+    width: 600px;
+    margin-bottom: 50px;
+}
+.consulta {
+    background-color: yellow;
+    margin: 0 auto;
+    width: 600px;
+}
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff5e7;
 }
