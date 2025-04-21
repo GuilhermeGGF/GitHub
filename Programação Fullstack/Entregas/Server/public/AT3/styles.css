@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: Sans-Serif;
+}
+
+.background {
+    background-color: lightgray;
+}
+
+.b1 {
+    border: 3px solid darkblue;
+    background-color: bisque;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: darkgreen;
+    font-size: 50px;
+}
+
+.b2 {
+    font-family: Sans-Serif;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.imagem {
+    width: 100px;
+}
+
+.b3 {
+    background-color: lightskyblue;
+    padding: 15px;
+    text-align: center;
+}
+
+.p1 {
+    font-size: 20px;
+    color: darkred;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+.textcenter {
+    margin: 10px auto;
+    width: 90%;
+    color: indigo;
+    font-size: 20pt;
+    text-align: justify;
+}
+
+h1 {
+    text-align: center;
+    margin: 40px 0 20px 0;
+}
+
+.books {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 50px;
+}
+
+.livros {
+    width: 300px;
+    height: 450px;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: 50px 0;
+}
+
+.tabela {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+table {
+    margin: 0 auto;
+    border: 3px dotted red;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid red;
+    padding: 10px;
+}
+
+th {
+    color: red;
+    border: 3px solid red;
+}
+
+.consulta {
+    background-color: yellow;
+    width: 600px;
+    margin: 0 auto 50px auto;
+    padding: 15px;
+}
+
+.footer {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: bisque;
+}

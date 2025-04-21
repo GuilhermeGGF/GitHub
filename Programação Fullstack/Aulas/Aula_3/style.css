@@ -1,0 +1,15 @@
+.solid {border: 2px solid red;}
+.dashed{border: 2px dashed blue;}
+.dotted{border: 2px dotted blueviolet;}
+.radius_10{border-radius: 10px;}
+.margin {margin-right: 50px; margin-top: 50px;}
+.shadow {box-shadow: 5px 5px gray;}
+.padding {padding: 10px;}
+.width_200 {width: 500px;}
+.height_25 {height: 25px;}
+.display_inline{display: inline;}
+.display_block{display: block;}
+#div_1 {display: inline; border: 3px solid black; position: relative; top: 10px; left: 10px; background-color: aqua;}
+#div_2 {display: inline; border: 3px solid black; position: absolute; top: 10px; left: 10px; background-color: chocolate;}
+#fixed {position: fixed; border: 3px solid black; position: absolute; top: 50px; left: 50px; background-color: chocolate;}
+#zindex {z-index: 0; border: 3px solid black; position: absolute; top: 50px; left: 50px; background-color: chocolate;}
