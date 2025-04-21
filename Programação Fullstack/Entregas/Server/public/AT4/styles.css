@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    background-color: lightgray;
+    font-family: 'Inter', Verdana, sans-serif;
+}
+
+.container {
+    background-color: bisque;
+    width: 50%;
+    margin: 10% auto;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    color: darkgreen;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    width: 150px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: lightskyblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-size: 18px;
+    color: indigo;
+}
