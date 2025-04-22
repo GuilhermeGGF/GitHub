@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(226, 226, 226);
+    font-family: "Inter", 'Courier New', sans-serif;
+    font-size: 1.2rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    background-color: gold;
+    display: inline-block;
+    margin-right: 1rem;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.c1 {
+    background-color: rgb(155, 155, 155);
+    text-align: center;
+    padding-bottom: 50px;
+    justify-content: center;
+}
