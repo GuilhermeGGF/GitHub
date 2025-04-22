@@ -34,3 +34,9 @@ app.post("/cadastrar", function(requisicao, resposta) {
     let nasc = requisicao.body.nasc;
     resposta.render("resposta", {user, nome, senha, nasc})
 });
+
+
+app.get("/for_ejs", function(requisicao, resposta) {
+    let valor = requisicao.query.valor;
+    resposta.render("exemplo_for", {valor});
+})

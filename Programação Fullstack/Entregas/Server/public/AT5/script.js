@@ -45,9 +45,9 @@ function desenhar_circulo(ctx, x, y, raio, corPreenchimento, corContorno = null)
 
 function desenhar_setor(ctx, x, y, raio, anguloInicio, anguloFim, corPreenchimento = null, corContorno = null) {
     ctx.beginPath();
-    ctx.moveTo(x, y); // Centro
-    ctx.arc(x, y, raio, anguloInicio, anguloFim); // Arco
-    ctx.closePath(); // Fecha o caminho de volta ao centro
+    ctx.moveTo(x, y);
+    ctx.arc(x, y, raio, anguloInicio, anguloFim); 
+    ctx.closePath();
 
     if (corPreenchimento) {
         ctx.fillStyle = corPreenchimento;
