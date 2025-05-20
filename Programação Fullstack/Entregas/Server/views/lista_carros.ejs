@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Carros Disponíveis</title>
+  <style>
+    body {
+      background-color: #e0f7fa;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: center;
+      width: 350px;
+    }
+
+    input, button {
+      display: block;
+      margin: 10px auto;
+      padding: 8px;
+      width: 80%;
+      font-size: 16px;
+    }
+
+    button {
+      background-color: #00796b;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    button:hover {
+      background-color: #004d40;
+    }
+
+    a {
+      color: #00796b;
+      text-decoration: none;
+      font-weight: bold;
+      display: block;
+      margin-top: 15px;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Carros Disponíveis</h2>
+    <% if (carros.length === 0) { %>
+      <p>Nenhum carro disponível.</p>
+    <% } else { %>
+      <table>
+        <thead>
+          <tr><th>Marca</th><th>Modelo</th><th>Ano</th><th>Quantidade</th></tr>
+        </thead>
+        <tbody>
+          <% carros.forEach(carro => { %>
+            <tr>
+              <td><%= carro.marca %></td>
+              <td><%= carro.modelo %></td>
+              <td><%= carro.ano %></td>
+              <td><%= carro.qtde_disponivel %></td>
+            </tr>
+          <% }) %>
+        </tbody>
+      </table>
+    <% } %>
+    <a href="/projetos">Voltar</a>
+  </div>
+</body>
+</html>
